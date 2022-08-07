@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>2022（半年）第一篇</title>
+    <link href="/2022/08/08/2022%EF%BC%88%E5%8D%8A%E5%B9%B4%EF%BC%89%E7%AC%AC%E4%B8%80%E7%AF%87/"/>
+    <url>/2022/08/08/2022%EF%BC%88%E5%8D%8A%E5%B9%B4%EF%BC%89%E7%AC%AC%E4%B8%80%E7%AF%87/</url>
+    
+    <content type="html"><![CDATA[<p>转眼北京奥运会也 14 年了，那时候大地震发生刚 3 个月。谁能想到 14 年后的我是这么个社畜呢。。</p><span id="more"></span><p>白天睡了三四个小时，现在失眠中</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>日常</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>2022</tag>
+      
+      <tag>8月</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>又是8月记事</title>
     <link href="/2020/08/16/%E5%8F%88%E6%98%AF8%E6%9C%88%E8%AE%B0%E4%BA%8B/"/>
     <url>/2020/08/16/%E5%8F%88%E6%98%AF8%E6%9C%88%E8%AE%B0%E4%BA%8B/</url>
@@ -22,9 +49,9 @@
       
       <tag>2020</tag>
       
-      <tag>心情</tag>
-      
       <tag>8月</tag>
+      
+      <tag>心情</tag>
       
     </tags>
     
@@ -37,7 +64,7 @@
     <link href="/2020/02/24/2020%E7%AC%AC%E4%B8%80%E7%AF%87/"/>
     <url>/2020/02/24/2020%E7%AC%AC%E4%B8%80%E7%AF%87/</url>
     
-    <content type="html"><![CDATA[<p>转眼已经是 2020，上次更新已经是半年前，更新一些猫片吧。</p><span id="more"></span><p>虽然每天吵得要死，但是在心情低落时，两只猫猫还是能够给我很大安慰。</p><hr><p><img src="/img/2020%E7%AC%AC%E4%B8%80%E7%AF%87/1.jpg"></p><hr><p><img src="/img/2020%E7%AC%AC%E4%B8%80%E7%AF%87/2.jpg"></p><hr><p><img src="/img/2020%E7%AC%AC%E4%B8%80%E7%AF%87/3.jpg"></p><hr><p><img src="/img/2020%E7%AC%AC%E4%B8%80%E7%AF%87/4.jpg"></p><hr><p><img src="/img/2020%E7%AC%AC%E4%B8%80%E7%AF%87/5.jpg"></p>]]></content>
+    <content type="html"><![CDATA[<p>转眼已经是 2020，上次更新已经是半年前，更新一些猫片吧。</p><p>虽然每天吵得要死，但是在心情低落时，两只猫猫还是能够给我很大安慰。</p><hr><p><img src="/img/2020%E7%AC%AC%E4%B8%80%E7%AF%87/1.jpg"></p><hr><p><img src="/img/2020%E7%AC%AC%E4%B8%80%E7%AF%87/2.jpg"></p><hr><p><img src="/img/2020%E7%AC%AC%E4%B8%80%E7%AF%87/3.jpg"></p><hr><p><img src="/img/2020%E7%AC%AC%E4%B8%80%E7%AF%87/4.jpg"></p><hr><p><img src="/img/2020%E7%AC%AC%E4%B8%80%E7%AF%87/5.jpg"></p>]]></content>
     
     
     <categories>
@@ -66,7 +93,7 @@
     <link href="/2019/08/28/Hexo-%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%85%B3%E5%9D%91%E6%80%BB%E7%BB%93/"/>
     <url>/2019/08/28/Hexo-%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%85%B3%E5%9D%91%E6%80%BB%E7%BB%93/</url>
     
-    <content type="html"><![CDATA[<p>从学习 github + hexo 到现在转到 gitee + hexo，已经过去大半个月了，搭建博客的本来目的（竟然）是为了记录作为程序猿在日常码代码时碰到的一些问题。结果三篇心情日志写完了，技术相关一篇没动。那么就用自己搭建 gitee + hexo 碰到的坑作为博客的第一篇技术相关文章吧。</p><span id="more"></span><ol><li><p>Ocean 主题在设置图片时注意文件夹位置设置，并不是在主目录下</p></li><li><p>Gitee 部署时勾选“强制使用 HTTPS”（可能要等 hexo d 一段时间以后生效）</p></li></ol><p>To be continued…</p>]]></content>
+    <content type="html"><![CDATA[<p>从学习 github + hexo 到现在转到 gitee + hexo，已经过去大半个月了，搭建博客的本来目的（竟然）是为了记录作为程序猿在日常码代码时碰到的一些问题。</p><span id="more"></span><p>结果三篇心情日志写完了，技术相关一篇没动。那么就用自己搭建 gitee + hexo 碰到的坑作为博客的第一篇技术相关文章吧。</p><ol><li><p>Ocean 主题在设置图片时注意文件夹位置设置，并不是在主目录下</p></li><li><p>Gitee 部署时勾选“强制使用 HTTPS”（可能要等 hexo d 一段时间以后生效）</p></li><li><p>url: <a href="https://lloydoyll.github.io/">https://lloydoyll.github.io</a> 后面不要加 &#x2F;project，否则网页样式会加载错误</p></li></ol><p>To be continued…</p>]]></content>
     
     
     <categories>
@@ -80,9 +107,9 @@
       
       <tag>8月</tag>
       
-      <tag>2019</tag>
-      
       <tag>Hexo</tag>
+      
+      <tag>2019</tag>
       
     </tags>
     
@@ -107,11 +134,11 @@
     
     <tags>
       
-      <tag>心情</tag>
-      
       <tag>8月</tag>
       
       <tag>2019</tag>
+      
+      <tag>心情</tag>
       
     </tags>
     
@@ -136,11 +163,11 @@
     
     <tags>
       
-      <tag>心情</tag>
-      
       <tag>8月</tag>
       
       <tag>2019</tag>
+      
+      <tag>心情</tag>
       
     </tags>
     

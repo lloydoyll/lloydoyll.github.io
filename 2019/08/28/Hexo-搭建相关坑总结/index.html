@@ -7,8 +7,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
-  <link rel="icon" href="/img/fluid.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/sleepless.png">
+  <link rel="icon" href="/img/sleepless.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
@@ -16,19 +16,19 @@
   <meta name="author" content="lloyd">
   <meta name="keywords" content="">
   
-    <meta name="description" content="从学习 github + hexo 到现在转到 gitee + hexo，已经过去大半个月了，搭建博客的本来目的（竟然）是为了记录作为程序猿在日常码代码时碰到的一些问题。结果三篇心情日志写完了，技术相关一篇没动。那么就用自己搭建 gitee + hexo 碰到的坑作为博客的第一篇技术相关文章吧。">
+    <meta name="description" content="从学习 github + hexo 到现在转到 gitee + hexo，已经过去大半个月了，搭建博客的本来目的（竟然）是为了记录作为程序猿在日常码代码时碰到的一些问题。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo 搭建相关坑总结">
 <meta property="og:url" content="https://lloydoyll.github.io/2019/08/28/Hexo-%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%85%B3%E5%9D%91%E6%80%BB%E7%BB%93/index.html">
 <meta property="og:site_name" content="lloydoyll daily fake news">
-<meta property="og:description" content="从学习 github + hexo 到现在转到 gitee + hexo，已经过去大半个月了，搭建博客的本来目的（竟然）是为了记录作为程序猿在日常码代码时碰到的一些问题。结果三篇心情日志写完了，技术相关一篇没动。那么就用自己搭建 gitee + hexo 碰到的坑作为博客的第一篇技术相关文章吧。">
+<meta property="og:description" content="从学习 github + hexo 到现在转到 gitee + hexo，已经过去大半个月了，搭建博客的本来目的（竟然）是为了记录作为程序猿在日常码代码时碰到的一些问题。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2019-08-28T15:53:04.000Z">
-<meta property="article:modified_time" content="2020-08-16T13:42:22.000Z">
+<meta property="article:modified_time" content="2022-08-07T19:30:15.499Z">
 <meta property="article:author" content="lloyd">
 <meta property="article:tag" content="8月">
-<meta property="article:tag" content="2019">
 <meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="2019">
 <meta name="twitter:card" content="summary_large_image">
   
   
@@ -97,7 +97,7 @@
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
-      <strong>Fluid</strong>
+      <strong>lloyd fake news</strong>
     </a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
@@ -192,7 +192,7 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+     style="background: url('/img/rainbow.jpg') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
@@ -221,7 +221,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          222 字
+          283 字
         
       </span>
     
@@ -232,7 +232,7 @@
         
         
         
-          2 分钟
+          3 分钟
         
       </span>
     
@@ -275,13 +275,16 @@
             
               <div class="markdown-body">
                 
-                <p>从学习 github + hexo 到现在转到 gitee + hexo，已经过去大半个月了，搭建博客的本来目的（竟然）是为了记录作为程序猿在日常码代码时碰到的一些问题。结果三篇心情日志写完了，技术相关一篇没动。那么就用自己搭建 gitee + hexo 碰到的坑作为博客的第一篇技术相关文章吧。</p>
+                <p>从学习 github + hexo 到现在转到 gitee + hexo，已经过去大半个月了，搭建博客的本来目的（竟然）是为了记录作为程序猿在日常码代码时碰到的一些问题。</p>
 <span id="more"></span>
 
+<p>结果三篇心情日志写完了，技术相关一篇没动。那么就用自己搭建 gitee + hexo 碰到的坑作为博客的第一篇技术相关文章吧。</p>
 <ol>
 <li><p>Ocean 主题在设置图片时注意文件夹位置设置，并不是在主目录下</p>
 </li>
 <li><p>Gitee 部署时勾选“强制使用 HTTPS”（可能要等 hexo d 一段时间以后生效）</p>
+</li>
+<li><p>url: <a href="https://lloydoyll.github.io/">https://lloydoyll.github.io</a> 后面不要加 &#x2F;project，否则网页样式会加载错误</p>
 </li>
 </ol>
 <p>To be continued…</p>
@@ -320,9 +323,9 @@
       
         <a href="/tags/8%E6%9C%88/">#8月</a>
       
-        <a href="/tags/2019/">#2019</a>
-      
         <a href="/tags/Hexo/">#Hexo</a>
+      
+        <a href="/tags/2019/">#2019</a>
       
     </div>
   
